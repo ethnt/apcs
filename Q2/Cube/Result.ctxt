@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=cube\ tosses
-comment0.target=int[]\ getCubeTosses(NumberCube,\ int)
-comment1.params=values
-comment1.target=int\ getLongestRun(int[])
-numComments=2

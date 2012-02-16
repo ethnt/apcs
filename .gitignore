@@ -1,0 +1,5 @@
+doc/
+*.ctxt
+*.class
+package.bluej
+.DS_Store
