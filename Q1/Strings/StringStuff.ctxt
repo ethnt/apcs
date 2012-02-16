@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringStuff()
+comment0.text=\r\n\ Constructors\r\n
+comment1.params=date
+comment1.target=java.lang.String\ dateString(java.lang.String)
+comment1.text=\r\n\ Methods\r\n
+comment2.params=text
+comment2.target=java.lang.String\ eliminateDashes(java.lang.String)
+comment3.params=text
+comment3.target=java.lang.String\ scrollWhich(java.lang.String)
+comment4.params=one\ two\ three
+comment4.target=java.lang.String\ middleThird(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=name
+comment5.target=java.lang.String\ convertName(java.lang.String)
+comment6.params=text
+comment6.target=boolean\ sameChars(java.lang.String)
+comment7.params=one\ two\ three
+comment7.target=java.lang.String\ lastInAlphabeticalOrder(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.params=text
+comment8.target=java.lang.String\ insertThrees(java.lang.String)
+numComments=9

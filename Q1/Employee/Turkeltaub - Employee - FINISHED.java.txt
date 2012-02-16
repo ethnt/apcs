@@ -1,0 +1,59 @@
+public class Employee {
+	
+	public int id;
+	public String name;
+	public String surname;
+	public int age;
+	public String title;
+	public boolean employed;
+
+	public Employee() {
+		id = 42;
+		name = "Joe";
+		surname = "Shmoe";
+		age = 2;
+		title = "VP of R&D";
+		employed = true;
+	}
+
+	public Employee(int inID, String inName, String inSurname, int inAge, String inTitle) {
+		id = inID;
+		name = inName;
+		surname = inSurname;
+		age = inAge;
+		title = inTitle;
+		employed = true;
+	}
+
+	public void getName() {
+		return name + " " + surname;
+	}
+
+	public void getTitle() {
+		return title;
+	}
+
+	public void changeAge(int newAge) {
+		age = newAge;
+		return age;
+	}
+
+	public void promote(String newTitle) {
+		if (newTitle != "CEO") {
+			title = newTitle;
+		}
+
+		else {
+			System.out.println("You can't do that!");
+		}
+	}
+
+	public void demote(String newTitle) {
+		title = newTitle;
+	}
+
+	public void fire() {
+		employed = false;
+	}
+
+}

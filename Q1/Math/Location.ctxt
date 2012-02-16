@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Location()
+comment0.text=\r\n\ Default\ with\ 0.0\ for\ both\ X-\ and\ Y-coordinates.\r\n
+comment1.params=latitude\ longitude
+comment1.target=Location(double,\ double)
+comment1.text=\r\n\ Use\ your\ own\ coordinates.\r\n
+comment2.params=destination
+comment2.target=double\ distance(Location)
+comment2.text=\r\n\ Distance\ from\ this\ point\ to\ another\ point.\r\n\ \r\n\ @param\ \ destination\ \ Other\ point.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ A\ double\ with\ the\ distance.\r\n
+comment3.params=other
+comment3.target=boolean\ equal(Location)
+comment3.text=\r\n\ Checks\ if\ another\ point\ and\ this\ point\ are\ in\ the\ same\ place.\r\n\ \r\n\ @param\ other\ \ Another\ point.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ True\ or\ false.\r\n
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Student()
+comment1.params=inName\ inSurname\ une\ deux\ trois\ quatre
+comment1.target=Student(java.lang.String,\ java.lang.String,\ Class,\ Class,\ Class,\ Class)
+comment2.params=
+comment2.target=double\ calcFinalAverage()
+comment3.params=
+comment3.target=int\ totalMissedClasses()
+comment4.params=
+comment4.target=void\ printStudentReport()
+numComments=5

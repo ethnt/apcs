@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BatteryCharger()
+comment0.text=\r\n\ Constructors.\r\n
+comment1.params=table
+comment1.target=BatteryCharger(int[])
+comment2.params=startHour\ chargeTime
+comment2.target=int\ getChargingCost(int,\ int)
+comment2.text=\r\n\ Methods.\r\n
+comment3.params=chargeTime
+comment3.target=int\ getChargeStartTime(int)
+numComments=4

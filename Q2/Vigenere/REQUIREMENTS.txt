@@ -1,0 +1,12 @@
+Message:
+* knows if encypted or not
+* use multiple languages
+* un-mutatable
+
+Vigenere:
+* creates plain and cipher alphabet
+* encodes
+* decodes
+* cannot mutate cipher alphabet
+* compare two ciphers
+* support for multiple languages

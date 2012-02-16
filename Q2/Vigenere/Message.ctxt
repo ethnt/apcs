@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Message()
+comment0.text=\r\n\ Default\ constructor.\ For\ testing\ purposes.\r\n
+comment1.params=message
+comment1.target=Message(java.lang.String)
+comment1.text=\r\n\ The\ only\ constructor\ you'll\ need.\r\n
+comment2.params=message\ times
+comment2.target=Message(java.lang.String,\ int)
+comment2.text=\r\n\ Multiple\ encryption.\ Will\ do\ encrypt\ (or\ decrypt)\ multiple\ times.\r\n
+comment3.params=key
+comment3.target=java.lang.String\ convert(java.lang.String)
+comment3.text=\r\n\ Converts\ a\ plain\ text\ message\ into\ cipher\ text\ and\ vice\ versa.\ It\ instantiates\ a\ new\ cipher,\ converts\ it,\ and\ destroys\ it.\r\n\ \r\n\ @param\ \ \ key\ \ The\ key\ you\ want\ to\ use.\r\n\ @return\ \ \ \ \ \ \ Plain\ or\ cipher\ text.\r\n
+comment4.params=cipher
+comment4.target=java.lang.String\ convert(Vigenere)
+comment4.text=\r\n\ Converts\ a\ plain\ text\ message\ into\ cipher\ text\ and\ vice\ versa\ using\ existing\ cipher.\r\n\ \r\n\ @param\ \ \ key\ \ \ \ \ The\ key\ you\ want\ to\ use.\r\n\ @param\ \ \ cipher\ \ The\ Vigenere\ object\ you\ want\ to\ use.\r\n\ @return\ \ \ \ \ \ \ \ \ \ Plain\ or\ cipher\ text.\r\n
+comment5.params=
+comment5.target=boolean\ isEncrypted()
+comment5.text=\r\n\ Checks\ if\ encrypted\ or\ not\ by\ seeing\ if\ there\ are\ spaces\ or\ not.\r\n\ \r\n\ @return\ \ True\ or\ false.\r\n
+numComments=6

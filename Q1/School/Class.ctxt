@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Class()
+comment1.params=inName\ inMissed\ in1\ in2\ in3\ in4
+comment1.target=Class(java.lang.String,\ int,\ double,\ double,\ double,\ double)
+comment2.params=in1\ in2\ in3\ in4
+comment2.target=void\ setGrades(double,\ double,\ double,\ double)
+comment3.params=
+comment3.target=int\ getMissed()
+comment4.params=
+comment4.target=double\ calcSum()
+comment5.params=
+comment5.target=double\ calcAverage()
+comment6.params=
+comment6.target=double\ getLowest()
+comment7.params=
+comment7.target=void\ deduct()
+comment8.params=
+comment8.target=int\ missedUntilDeduction()
+comment9.params=
+comment9.target=void\ printReport()
+numComments=10

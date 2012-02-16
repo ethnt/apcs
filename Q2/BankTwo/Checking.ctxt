@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Checking()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Checking\r\n
+comment1.params=balance\ checkNumber
+comment1.target=Checking(double,\ int)
+comment2.params=amount
+comment2.target=void\ deposit(double)
+comment3.params=amount
+comment3.target=void\ withdraw(double)
+comment4.params=amount
+comment4.target=void\ printCheck(double)
+comment4.text=\r\n\ Make\ a\ fancy\ check.\ Withdraws\ from\ Account.\r\n\ \r\n\ @param\ \ \ amount\ \ \ Amount\ of\ money\ the\ check\ is.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ A\ visual\ check.\ \r\n
+numComments=5

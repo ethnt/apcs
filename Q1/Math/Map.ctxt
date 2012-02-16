@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Map()
+comment0.text=\r\n\ Default\ constructor.\r\n
+comment1.params=mapName\ p1\ p2\ p3
+comment1.target=Map(java.lang.String,\ Location,\ Location,\ Location)
+comment1.text=\r\n\ Make\ your\ own\ map.\ It\ needs\ a\ name\ and\ 3\ Locations.\r\n
+comment2.params=
+comment2.target=boolean\ triangle()
+comment2.text=\r\n\ Checks\ to\ see\ if\ there\ is\ a\ triangle\ or\ not.\r\n\ \r\n\ @return\ \ True\ or\ false.\r\n
+comment3.params=
+comment3.target=double\ getLargestDistance()
+comment3.text=\r\n\ Returns\ the\ largest\ distance\ between\ points.\r\n\ \r\n\ @return\ \ The\ largest\ distance\ between\ locations.\r\n
+comment4.params=
+comment4.target=double\ getPerimeter()
+comment4.text=\r\n\ Returns\ the\ perimeter\ of\ the\ triangle\ formed\ by\ the\ three\ points.\r\n\ \r\n\ @return\ \ The\ perimeter.\r\n
+comment5.params=
+comment5.target=double\ getArea()
+comment5.text=\r\n\ Returns\ the\ area\ of\ the\ triangle\ formed\ by\ the\ three\ points.\r\n\ \r\n\ @return\ \ The\ area.\r\n
+comment6.params=
+comment6.target=double\ calcBoundingCircleDiameter()
+comment6.text=\r\n\ Returns\ the\ diameter\ of\ the\ bounding\ circle.\r\n\ \r\n\ @return\ \ The\ diameter\ of\ the\ circle.\r\n
+comment7.params=
+comment7.target=double\ calcBoundingCircleArea()
+comment7.text=\r\n\ Returns\ the\ area\ of\ the\ bounding\ circle.\r\n\ \r\n\ @return\ \ The\ area\ of\ the\ circle.\r\n
+numComments=8

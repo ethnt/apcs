@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScrambledWordPuzzle()
+comment1.params=str
+comment1.target=java.lang.String\ scrambleBy3(java.lang.String)
+comment2.params=
+comment2.target=void\ fillScrambledStrings()
+comment3.params=
+comment3.target=void\ printSolved()
+comment4.params=
+comment4.target=void\ printScrambled()
+comment5.params=guess\ num
+comment5.target=boolean\ guess(java.lang.String,\ int)
+numComments=6

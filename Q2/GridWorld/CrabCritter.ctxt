@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CrabCritter()
+comment1.params=
+comment1.target=java.util.ArrayList\ getActors()
+comment1.text=\r\n\ A\ crab\ gets\ the\ actors\ in\ the\ three\ locations\ immediately\ in\ front,\ to\ its\r\n\ front-right\ and\ to\ its\ front-left\r\n\ @return\ a\ list\ of\ actors\ occupying\ these\ locations\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getMoveLocations()
+comment2.text=\r\n\ @return\ list\ of\ empty\ locations\ immediately\ to\ the\ right\ and\ to\ the\ left\r\n
+comment3.params=loc
+comment3.target=void\ makeMove(info.gridworld.grid.Location)
+comment3.text=\r\n\ If\ the\ crab\ critter\ doesn't\ move,\ it\ randomly\ turns\ left\ or\ right.\r\n
+comment4.params=directions
+comment4.target=java.util.ArrayList\ getLocationsInDirections(int[])
+comment4.text=\r\n\ Finds\ the\ valid\ adjacent\ locations\ of\ this\ critter\ in\ different\r\n\ directions.\r\n\ @param\ directions\ -\ an\ array\ of\ directions\ (which\ are\ relative\ to\ the\r\n\ current\ direction)\r\n\ @return\ a\ set\ of\ valid\ locations\ that\ are\ neighbors\ of\ the\ current\r\n\ location\ in\ the\ given\ directions\r\n
+numComments=5
