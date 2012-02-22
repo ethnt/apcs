@@ -1,6 +1,0 @@
-1. loc1.getRow();
-2. false
-3. (4, 4);
-4. SOUTHWEST
-5. The parameter you give it determines how many spaces north, south, east,
-   or west it should move its cursor.
