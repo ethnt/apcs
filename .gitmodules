@@ -1,0 +1,3 @@
+[submodule "Q3/Poker"]
+	path = Q3/Poker
+	url = git@github.com:eturk/poker.git
