@@ -1,3 +1,6 @@
 [submodule "Q3/Poker"]
 	path = Q3/Poker
 	url = git@github.com:eturk/poker.git
+[submodule "Projects/jack"]
+	path = Projects/jack
+	url = git@github.com:eturk/jack.git
