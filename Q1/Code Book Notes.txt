@@ -1,8 +1,0 @@
-Pages 20-25:
-
-* Use frequency analysis when searching all possible keys is impractical.
-* Find what the letter is due to their frequency.
-* Check neighboring letters--are they consanants or vowels?
-* "OO appears twice, whereas XX does not appear at all. Since the letters 'ee' appear far more often than 'aa' in plaintext English, it is likely that O = e and X = a."
-* Spaces aren't often true, are there to confuse an enemy interceptor.
-* Guess.
