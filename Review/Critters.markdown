@@ -23,36 +23,36 @@ Please do not use this as an answer key, all of these are probably wrong.
 
 ### A
 
-public void processActors(ArrayList<Actor> actors) {
-	int friends = 0;
-	int foes = 0;
-	int neithers = 0;
-	
-	for (Actor a : actors) {
-		if (isFriend(a))
-			friends++;
-		else if (isFoe(a))
-			foes++;
+	public void processActors(ArrayList<Actor> actors) {
+		int friends = 0;
+		int foes = 0;
+		int neithers = 0;
+		
+		for (Actor a : actors) {
+			if (isFriend(a))
+				friends++;
+			else if (isFoe(a))
+				foes++;
+			else
+				neithers++;
+		}
+		
+		if (friends > foes)
+			setColor(Color.ORANGE);
 		else
-			neithers++;
+			setColor(Color.BLACK);
 	}
-	
-	if (friends > foes)
-		setColor(Color.ORANGE);
-	else
-		setColor(Color.BLACK);
-}
 
 ### B
 
-public Location selectMoveLocation(ArrayList<Location> locs) {
-	if (getColor() == Color.BLACK)
-		for (Location l : locs) {
+	public Location selectMoveLocation(ArrayList<Location> locs) {
+		if (getColor() == Color.BLACK)
+			for (Location l : locs) {
+				super.act();
+				numStepsDead++;
+			}
+		else {
 			super.act();
-			numStepsDead++;
-		}
-	else {
-		super.act();
-		numStepsDead = 0;
-    	}
-}
+			numStepsDead = 0;
+	    	}
+	}
