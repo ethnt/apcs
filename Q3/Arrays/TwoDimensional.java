@@ -1,9 +1,15 @@
 
 /**
- * Write a description of class TwoDimensional here.
+ * Two Dimensional Arrays
  * 
  * @author (your name) 
  * @version (a version number or a date)
+ * 
+ * Multiple choice:
+ * 29. B
+ * 30. C
+ * 31. D
+ * 32. A
  */
 public class TwoDimensional {
     public static void main(String[] args) {
@@ -46,16 +52,15 @@ public class TwoDimensional {
         /*
          * # 4
          */
-        int[][] tenByTen = {{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 },
-                            { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 },
-                            { 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 },
-                            { 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 },
-                            { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 },
-                            { 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 },
-                            { 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 },
-                            { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 },
-                            { 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 },
-                            { 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 }};
+        int[][] tenByTen = new int[10][10];
+        
+        int counter = 0;
+        for (int r = 0; r < tenByTen.length; r++) {
+            for (int c = 0; c < tenByTen[r].length; c++) {
+                tenByTen[r][c] = counter;
+                counter++;
+            }
+        }
         for (int i = 0; i < tenByTen[0].length; i++) {
             System.out.println(tenByTen[i][i]);
         }
