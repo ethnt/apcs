@@ -20,6 +20,7 @@ public class Crossword {
                 { -1, 0, -1, 0, 0, 0 }};
         
         grid = theGrid;
+        placeNumbers();
         createWordSizeLists();
     }
     
@@ -27,18 +28,13 @@ public class Crossword {
      * Part A. Detects if location is a start of a horizontal word.
      */
     public boolean horStart(int row, int col) {
-        boolean result = true;
+        boolean result = false;
         
-        if (row == 0)
-            result = false;
-        else if (grid[row][col - 1] == -1)
-            result = false;
-        else if (row == grid[row].length)
-            result = false;
-        else if (grid[row][col + 1] == 0)
-            result = false;
-        else
-            result = true;
+        if (col == 0 || grid[row][col - 1] == -1) {
+            if (grid[row].length != col || grid[row][col + 1] == 0) {
+                result = true;
+            }
+        }
         
         return result;
     }
@@ -116,4 +112,32 @@ public class Crossword {
             }
         }
     }
+    
+    
+public void printGrid()
+  {
+    for(int row = 0; row < grid.length; row++)
+{
+      for(int col = 0; col < grid[0].length; col++)
+{
+        if(grid[row][col] == -1)
+          System.out.print("XX");
+        else if(grid[row][col] == 0)
+          System.out.print("  ");
+        else if(grid[row][col] < 10)
+          System.out.print(" " + grid[row][col]);
+        else
+          System.out.print(grid[row][col]);
+      }
+System.out.println();
+    }
+System.out.println();
+  }
+  public void printLists()
+{
+    System.out.println(horizontalWordSize);
+System.out.println();
+System.out.println(verticalWordSize);
+  
+}
 }
