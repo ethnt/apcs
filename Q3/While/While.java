@@ -28,10 +28,15 @@ public class TestWhileLoops
         System.out.println("I have a number in mind, Dave. Can you guess?");
 		int number = (int)(Math.random);
 
-        int guess = myScanner.nextInt();    
+		boolean correct = false;   
 
-        while (guess != number) {
-			method2();
+        while (correct == false) {
+			System.out.println("Guess: ");
+			guess = myScanner.nextInt();
+
+			if (guess == number) {
+				result = true;
+			}
 		}
     }    
    
