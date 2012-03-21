@@ -1,0 +1,48 @@
+/* Multiple Choice */
+
+/* WHILE LOOPS */
+
+/*
+	Number 1
+	Output: 3
+*/
+int n = 0;
+while (n < 4) {
+	n = n + 1;
+}
+System.out.println(n);
+
+/*
+	Number 2
+	Output: 1
+*/
+
+int n = 0; 
+int i = 0; 
+while (i < 4) {
+	if (i % 2 == 0) {
+		n = n + 1;
+	}
+
+	i = i + 1;   
+}
+System.out.println(n);  
+
+/*
+	Number 3
+	Output: null
+*/
+
+/*
+	Number 4
+	Output: stack overflow
+*/
+
+/*
+	Number 5
+	Output: 4
+*/
+
+/* - - - - - - - */
+
+/* Iteration */
