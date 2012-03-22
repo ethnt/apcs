@@ -1,73 +1,64 @@
 import java.util.*;
 
-/** * The purpose of this class is to practice with while loops and the Scanner class. Create the 
-following
- * three unrelated methods.
- * 
- */
-import java.util.Scanner;
-public class TestWhileLoops
-{
-    public static void method1() {
-        //create a new Scanner object that will read input from the keyboard
-        Scanner myScanner = new Scanner(System.in);
-        
-        int input = myScanner.nextInt();
-		for (int i = 0; i < input; i++) {
-			System.out.println("out");
-		}
-	}    
-    
-	public static void method2() {
-        //create a new Scanner object that will read input from the keyboard
-        Scanner myScanner = new Scanner(System.in);
-        
-        //Choose a random int between 1 and 15 and use a while loop as follows:
-        //continue taking a guess from the user
-        //until they either get it right or type ‐99 to give up.
-        System.out.println("I have a number in mind, Dave. Can you guess?");
-		int number = (int)(Math.random);
+public class While {
+    public�static�void�method1() {
+		Scanner�myScanner�=�new�Scanner(System.in);
+		
+		int input = myScanner.nextInt();
+        for (int i = 0; i < input; i++) {
+            System.out.println("out");
+        }
+    }	
+	
+    public�static�void�method2() {
+		//create�a�new�Scanner�object�that�will�read�input�from�the�keyboard
+		Scanner�myScanner�=�new�Scanner(System.in);
 
-		boolean correct = false;   
+		System.out.println("I�have�a�number�in�mind,�Dave.�Can�you�guess?");
+        int number = (int)((Math.random() * 15) + 1);
 
-        while (correct == false) {
-			System.out.println("Guess: ");
-			guess = myScanner.nextInt();
+        boolean correct = false;
 
-			if (guess == number) {
-				result = true;
-			}
-		}
-    }    
-   
-         public static void method3()
-    {
-        //create a new Scanner object that will read input from the keyboard
-        Scanner myScanner = new Scanner(System.in);
-        
-        //Create two arrays of 10 Strings: one called largeWords and
-  //another one called shortWords.
-        //Uise a while loop and the Scanner object to continue to read Strings from the user
-        //as you read each String check its length and store it in largeWords if the length is 6 or 
-        //more otherwise store the String in shortWords
-        //keep track of where you are in each array and keep loop until BOTH arrays are filled
-       //print arrays when done
-        
-		ArrayList<String> short = new ArrayList<String>;
+		while�(correct == false) {
+            System.out.println("Guess: ");
+            guess = myScanner.nextInt();
+
+            if (guess == number) {
+                result = true;
+                System.out.println("You win!");
+            }
+        }
+	}	
+���
+	public static void method3() {
+		Scanner scan = new Scanner(System.in);
+
+		ArrayList<String> shorter = new ArrayList<String>;
 		ArrayList<String> longer = new ArrayList<String>;
 
-        System.out.println("Keep entering words until you are told to stop!");        
-        while (x < 10) {
-			System.out.println("Enter a string: ");
-			str = myScanner.next();
+		System.out.println("Keep entering words until you are told to stop!");
 
-			if (str.length() > 6) {
-				longer.add(str);
+		while (shorter.size() < 10 && longer.size() < 10) {
+			System.out.println("Enter a string: ");
+			text = scan.next();
+
+			if (text.length() > 6) {
+				longer.add(text);
 			} else {
-				short.add(str);
+				shorter.add(text);
 			}
-       }
-            
-            System.out.println("Thanks both lists are full.");
-            System.out.println("Large List:");                       System.out.println("ShortList:");           
+		}
+
+		System.out.println("Both lists are full.");
+
+		System.out.println("Longer list: ")
+		for (int i = 0; i < longer.size(); i++) {
+			System.out.println(longer.get(i));
+		}
+
+		System.out.println("Shorter list: ");
+		for (int i = 0; i < shorter.size(); i++) {
+			System.out.println(shorter.get(i));
+		}
+	}
 }
