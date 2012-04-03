@@ -52,6 +52,3 @@ class Sorts
   end
 end
 
-array = [12, 31, 5231, 532, 123, 64, 123, 64, 42, 643]
-
-puts Sorts.selection(array)
