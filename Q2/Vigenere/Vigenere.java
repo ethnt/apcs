@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * A simple Vigenere encryptor and decryptor. A Cipher, if you will.
  * 
- * @author Jake Schwartz, and not this eturk character.
+ * @author Ethan Turkeltaub, not Jake Schwartz...
  * @version 0.1.0
  */
 public class Vigenere {
